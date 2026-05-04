@@ -19,7 +19,7 @@ This project contains the implementation of the semi-automated rice root phenoty
 
 ## Introduction
 
-This software can be used to obtain phenotypic data of lateral root traits from rice root scans. Please refer to ./ExampleImages as reference to what these scans should look like. Using this software the following traits can be measured in a semi-automated manner:
+This software can be used to obtain phenotypic data of lateral root traits from rice root scans. Please refer to ./ExampleImages as a reference to what these scans should look like. Using this software, the following traits can be measured in a semi-automated manner:
 main root axis length (MRL),
 single S-type length (STL),
 single L-type length (LTL),
