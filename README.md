@@ -44,11 +44,12 @@ While this pipeline speeds up length measurements for roots and counting of late
 
 ## Calibration
 
-As the number of S-types and L-types counted by the pipeline is sensitive to several input parameters (root mask threshold, L-type mask threshold, Gaussian kernel diameter, and margin for lateral branch counting), these parameters were calibrated on a set of 33 randomly selected scans from replicate 1 of the hydroponics set. Lengths of the primary root axis were measured using ImageJ (Schneider et al., 2012), and the number of all laterals and L-types along the primary root was counted manually. From this, lateral and L-type densities (LD, LTD) were calculated. The same images were analyzed by the semi-automated pipeline while systematically varying the aforementioned parameters.
+As the number of S-types and L-types counted by the pipeline is sensitive to several input parameters (root mask threshold, L-type mask threshold, Gaussian kernel diameter, and margin for lateral branch counting), these parameters were calibrated on 33 randomly selcted seedling root scans of plants grown in hydroponics. Lengths of the primary root axis were measured using ImageJ (Schneider et al., 2012), and the number of all laterals and L-types along the primary root was counted manually. From this, lateral and L-type densities (LD, LTD) were calculated. The same images were analyzed by the semi-automated pipeline while systematically varying the aforementioned parameters.
 In  general, employing a margin for branch counting with a diameter of 2 pixels resulted in higher correlations between ground-truth and measured LD values compared to not applying such a margin (Figure below A). Although the highest precision for LD was observed for root mask thresholds of 248, this threshold frequently truncated S-type laterals, thereby interfering with measurements of S-type lengths. A root mask threshold of 250 was therefore considered more appropriate. At this threshold, the highest precision for LD was achieved using a Gaussian kernel diameter of 5 pixels; however, this setting led to a systematic underestimation of LD (Figure below B). Consequently, a Gaussian kernel diameter of 4 pixels was selected, providing a better balance between precision and bias (Figure Below C).
 Using these parameter values, precision for LTD was evaluated by fixing the margin for L-type branch counting at 10 pixels and varying the L-type mask threshold while keeping all other parameters constant. The highest precision was observed for an L-type mask threshold of 210 with only a slight tendency to overestimate LTD (Figure below D). 
 ![Calibration](Explanations/Calibration.png)
-Note that depending on the type of dataset (brightness, amount of debris etc.) additional calibration might be needed.
+
+Note that depending on the type of dataset (brightness, amount of debris etc.) additional calibration might be needed to optimize precision.
 
 ## References
 
