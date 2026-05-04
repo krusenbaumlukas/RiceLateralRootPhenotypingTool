@@ -1,6 +1,6 @@
 # Rice lateral root phenotyping tool 
 
-This project contains the implementation of the semi-automated rice root phenotyping tool described in Krusenbaum et. al, 2026 (To be submitted).
+This project contains the implementation of the semi-automated rice root phenotyping tool described in Krusenbaum et al., 2026 (To be submitted).
 
 ## Requirements
 - Python 3.8+
