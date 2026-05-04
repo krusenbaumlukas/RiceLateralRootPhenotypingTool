@@ -1,5 +1,5 @@
 """
-Entry point for the Root Analyzer app.
+Entry point for the app.
 """
 import json
 import os
