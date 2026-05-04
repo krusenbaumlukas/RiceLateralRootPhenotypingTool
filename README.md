@@ -15,7 +15,7 @@ This project contains the implementation of the semi-automated rice root phenoty
 2. Install dependencies, e.g. `pip install pillow numpy opencv-python plantcv`.
 3. Run: `python RiceLateralRootPhenotypingTool/app.py`
 4. Use File → Open File to load images and the right-side controls to create masks / skeletons.
-5. Follow in-depth instructions given in the top right hand panel.
+5. Follow the instructions given in the top right hand panel.
 
 ## Introduction
 
