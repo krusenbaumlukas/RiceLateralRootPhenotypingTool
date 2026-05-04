@@ -1,0 +1,11 @@
+{
+  "output_dir": "./output",
+  "dpi": 600,
+  "thresholds": {
+    "root_mask": 250,
+    "lt_mask": 210
+  },
+  "diam_gaus": 4,
+  "margin_laterals": 2,
+  "margin_LT": 10
+}
