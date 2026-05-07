@@ -49,7 +49,7 @@ In  general, employing a margin for branch counting with a diameter of 2 pixels 
 Using these parameter values, precision for LTD was evaluated by fixing the margin for L-type branch counting at 10 pixels and varying the L-type mask threshold while keeping all other parameters constant. The highest precision was observed for an L-type mask threshold of 210 with only a slight tendency to overestimate LTD (Figure below D). 
 ![Calibration](Explanations/Calibration.png)
 
-Note that depending on the type of dataset (brightness, amount of debris etc.) additional calibration might be needed to optimize precision.
+Note that depending on the type of dataset (brightness, amount of debris etc.) additional calibration might be needed to optimize precision. We advise users to estimate precision on a few images for every new dataset.
 
 ## References
 
