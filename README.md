@@ -8,7 +8,7 @@ This project contains the implementation of the semi-automated rice root phenoty
 - numpy
 - opencv-python
 - plantcv
-- tkinter (bundled with CPython on most platforms)
+- tkinter (bundled with Python on most platforms)
 
 ## How to run
 1. Place this project in a folder `RiceLateralRootPhenotypingTool`.
